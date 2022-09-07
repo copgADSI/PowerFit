@@ -1,0 +1,30 @@
+.excercise_card{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    width: 300px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.excercise_card img{
+    height: 200px;
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.excercise_card span{
+    color: #282c34;
+    font-size: 15px;
+}
+
+.excercise_card button{
+    margin: 10px;
+}
+
+
+#btnSecondary{
+    background: #282c34;
+    color: #fff;
+}

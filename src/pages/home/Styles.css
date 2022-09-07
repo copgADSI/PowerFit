@@ -1,0 +1,44 @@
+:root {
+    --primary-color: orange;
+    --secondy-color: #282c34;
+}
+
+.home__container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    /*  background: url('../../assets/images/banner.jpg') no-repeat; */
+    max-width: 1360px;
+    min-height: 600px;
+}
+
+.info {
+    position: absolute;
+    margin-top: 8%;
+    width: 300px;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: none;
+    color: #000;
+    opacity: 1;
+}
+
+
+p {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+h3,
+span,
+strong {
+    color: #fff;
+}
+
+h3 span {
+    color: var(--primary-color)
+}

@@ -1,0 +1,32 @@
+.wrapper {
+    display: grid;
+    height: 400px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    transition: .6s ease;
+}
+
+
+@media (max-width: 1204px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-rows: repeat(2, 2fr);
+        padding: 20px;
+        transition: 1s ease;
+    }
+}
+
+@media (max-width: 700px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        grid-template-rows: repeat(1, 2fr);
+        padding: 20px;
+        transition: 1s ease;
+    }
+}
+
+.container__form{
+    display: flex;
+}
